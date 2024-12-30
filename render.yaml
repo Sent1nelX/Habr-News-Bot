@@ -1,0 +1,7 @@
+# render.yaml
+services:
+  - type: background-worker
+    name: Habr_Pars_V1
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    env: python
