@@ -14,7 +14,7 @@ from bot.middlewares import AdminMiddleware
 from bot import ParserService, SummarizerService, StatsService
 
 logger = logging.getLogger(__name__)
-scheduler = AsyncIOScheduler(timezone="Europe/Moscow")
+scheduler = AsyncIOScheduler(timezone="Asia/Almaty")
 
 async def main():
     logging.basicConfig(
