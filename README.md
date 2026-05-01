@@ -105,7 +105,7 @@ DATABASE_URL=sqlite+aiosqlite:///posts.db
 
 ### Как получить `CHANNEL_ID`
 
-1. Добавьте бота [@username_to_id_bot](https://t.me/username_to_id_bot) или перешлите любое сообщение из канала боту [@getidsbot](https://t.me/getidsbot).
+1. Добавьте бота [@username_to_id_bot](https://t.me/username_to_id_bot) или перешлите любое сообщение из канала в бот [@getidsbot](https://t.me/getidsbot).
 2. Для публичных каналов ID имеет вид `-100XXXXXXXXXX`.
 
 ### Как получить `ADMIN_IDS`
